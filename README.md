@@ -9,7 +9,7 @@ cd spoticord
 npm install
 ```
 
-You then need to create a token.json file with the following contents:
+You then need to create a tokens.json file with the following contents:
 
 ```json
 {
