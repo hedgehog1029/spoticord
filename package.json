@@ -1,0 +1,28 @@
+{
+  "name": "spoticord",
+  "version": "1.0.0",
+  "description": "Update your \"Playing\" on Discord to what you're listening to on Spotify.",
+  "main": "index.js",
+  "dependencies": {
+    "discordie": "^0.10.0",
+    "spotify-control": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedgehog1029/spoticord.git"
+  },
+  "keywords": [
+    "spotify",
+    "discord"
+  ],
+  "author": "offbeatwitch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hedgehog1029/spoticord/issues"
+  },
+  "homepage": "https://github.com/hedgehog1029/spoticord#readme"
+}
