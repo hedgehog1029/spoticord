@@ -18,7 +18,7 @@ spotify.on "event", (e) ->
 	str = "#{e.track.track_resource.name} - #{e.track.artist_resource.name}"
 
 	log "Setting game to #{str}"
-	discord.User.setGame str
+	discord.User.setGame type: 2, name: str
 
 discord.Dispatcher.on "GATEWAY_READY", (e) ->
 	log "Connected to Discord. Username: #{discord.User.username}"

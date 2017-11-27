@@ -4,7 +4,7 @@
   "description": "Update your \"Playing\" on Discord to what you're listening to on Spotify.",
   "main": "index.js",
   "dependencies": {
-    "discordie": "^0.10.0",
+    "discordie": "^0.11.0",
     "spotify-control": "^0.1.0"
   },
   "devDependencies": {},
